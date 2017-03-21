@@ -38,5 +38,9 @@ echo "<br>";
 $test= 'test';
 print_r(get_defined_vars());
 
+print_r(get_defined_constants());
+print_r(get_defined_functions());
+print_r(get_included_files());
+
 
 ?>
